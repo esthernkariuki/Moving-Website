@@ -164,7 +164,7 @@ border-radius: 5px; }
 .parking{
     width: 100%;
     height: 50px;
-    max-width: 1200px;
+    max-width: 700px;
    }
    h1{
     font-size: 50px;
@@ -187,7 +187,7 @@ border-radius: 5px; }
 .helping-step{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 700px;
     padding: 50px 100px;
     gap: 50px;
 }
@@ -196,14 +196,14 @@ border-radius: 5px; }
 }
 .leading-bussiness-paragragh{
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 500px;
     padding: 50px 100px;
     gap: 50px;
 }
 .icons, #p{
     display: block;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 500px;
     padding: 5px 700px 50px;
     gap: 100px;
 
@@ -224,6 +224,7 @@ padding:10px 700px ;
     color: white;
     height: 500px; 
     background-color: orange;
+    align-content: center;
 
 
 }
@@ -259,7 +260,7 @@ padding:10px 700px ;
 .qoute-form{
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 500px;
     padding: 50px 100px;
     gap: 50px;
     background-color:blue;
@@ -310,16 +311,16 @@ fieldset{
     cursor: pointer;
 }
 .what.they.say{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 500px;
     padding: 100px 100px;
     gap: 50px;
 }
 .testimonial{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 500px;
     padding: 50px 100px;
     gap: 300px;
 }
@@ -328,6 +329,124 @@ fieldset{
     text-align: center;
     margin-top: -50px;
 }
+.fa-solid.fa-quote-left{
+    color: blue;
+}
+.newsletter{
+    /* padding:50px 900px;
+    display: flex;
+} */}
+.newsletter,h1,p{
+    font-size: 20px;
+    text-align: center;
+   margin-top: 60px;
+   padding-bottom:30px ;
+ }
+  .updates{
+     display: flex;
+    /* justify-content: space-between;  */
+    max-width: 500px;
+    padding: 50px 750px;
+    gap:50px;  
+    text-align: center;
+
+ }
+ .updates p{
+     text-align: center;
+    padding-top: -2px; ;
+    padding-right: 10px;
+    padding-left: 10px;}
+
+ .updates button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:70px;
+    width: 200px;
+    margin-top: -0px;
+
+
+    }
+.blog{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    padding: 50px 100px;
+    gap: 50px;
+
+}
+.blog-img-entertainment{
+    background-image: url(images/call\ centre.jpeg);
+    background-repeat: no-repeat;
+}
+.blog-img-choose{
+    background-image: url(images/couples\ choosing\ movers.jpeg);
+    background-repeat: no-repeat;
+}
+.blog-img-boomer{
+    background-image: url(images/movee.jpeg);
+    background-repeat: no-repeat;
+    height:900px;
+
+
+}
+.blog-img{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-bottom: 20px;
+    gap:200px;
+   
+
+  }
+.movers-USA{
+    background-color: orange;
+    margin-top: -60px;
+    color:white;
+    height: 200px;
+}
+.movers-USA h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.movers-USA button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(18, 16, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:60px;
+    width: 200px;
+    margin-top: -90px;
+    float:right;
+    padding-bottom: -100px;
+
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 50px 100px;
+    gap: 50px;
+    background-color:black;
+    color: white;
+    height: 200px;
+    margin-top: 50px;
+}
+.fab.fa-twitter{
+    color: orange;
+}
+
+
 
 
 
