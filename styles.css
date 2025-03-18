@@ -36,13 +36,14 @@ font-family:sans-serif ;
     color:blue;
 }
 .logo-phonenumber{
-    padding:10px,100px 10px 1200px;
-    
+
+    padding-left: 900px;;
    
     
 }
 .fa-solid.fa-phone-volume{
     color:blue;
+   
    
 
 }
@@ -64,6 +65,9 @@ nav {
 
 
 }
+/* #phone{
+    float:right; */
+
 
 
 nav a {
@@ -133,7 +137,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    padding: 50px 100px;
+    padding: 50px 10px;
     gap: 50px;
 
 
@@ -145,15 +149,16 @@ nav a {
     justify-content: space-between;
     max-width: 1200px;
     margin-bottom: 20px;
+    gap:300px;
   }
 .right-content .left-img{
-    width: 25%;
-    height: 300px;
+    width: 35%;
+    height: 400px;
     padding:500px 0px 0px 500px ;
 }
 .left-content .right-img{
-    width: 20%;
-    height: 300px;
+    width: 25%;
+    height: 400px;
     float:left;
     padding-left:900px;
     margin-top: 150px;
@@ -228,12 +233,16 @@ border-radius: 5px; }
 }
 .leading-bussiness-img{
     right:0;
+    gap:50px;
 }
 .leading-bussiness-paragragh{
     justify-content: space-between;
     max-width: 500px;
     padding: 50px 100px;
     gap: 50px;
+}
+#p{
+    padding:10px 100px 10px 600px;
 }
 .icons, #p{
     display: block;
@@ -262,6 +271,7 @@ border-radius: 5px; }
     height: 500px; 
     background-color: orange;
     align-content: center;
+    width: 100%;
 
 
 }
@@ -380,7 +390,6 @@ fieldset{
  }
   .updates{
      display: flex;
-    /* justify-content: space-between;  */
     max-width: 500px;
     padding: 50px 750px;
     gap:50px;  
@@ -424,7 +433,7 @@ fieldset{
     background-repeat: no-repeat;
 }
 .blog-img-boomer{
-    background-image: url(images/movee.jpeg);
+    background-image: url(images/Movee.jpeg);
     background-repeat: no-repeat;
     height: 1000px;
     width: 1000px;
@@ -432,6 +441,7 @@ fieldset{
 .newsletter h1{
     padding-right: -100px;
 }
+
 
 
 .blog-img{
@@ -487,6 +497,21 @@ fieldset{
 }
 .paragraph{
     align-items: start;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+
+a{
+    display: block;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 
