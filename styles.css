@@ -139,6 +139,7 @@ nav a {
     max-width: 1200px;
     padding: 50px 10px;
     gap: 50px;
+    padding-right:-300px;
 
 
 }
@@ -435,9 +436,10 @@ fieldset{
 .blog-img-boomer{
     background-image: url(images/Movee.jpeg);
     background-repeat: no-repeat;
-    height: 1000px;
-    width: 1000px;
-    max-width: 500px;}
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+object-fit: cover;}
 .newsletter h1{
     padding-right: -100px;
 }
