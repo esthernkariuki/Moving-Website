@@ -5,10 +5,14 @@ body{
 }
 
 .banner-header{
-    padding: 8px 0px;
+    padding: 5px 0px;
     background-color: black;
     margin: 0;
 
+}
+.fa-solid.fa-circle-check{
+    padding-left: 650px;
+    color: orange;
 }
 .banner-paragraph{
     color: white;
@@ -325,6 +329,9 @@ body{
     font-size: 20px;
 
 }
+.storage{
+    padding:70px
+}
 #packing-div-icon{
     color: white;
     padding: 30px;
@@ -519,12 +526,20 @@ body{
 
 .quote-form {
     width: 50%;
-    height: 53.5vh;
+    height: 35.5vh;
     background-color: #2c5aa0;
-    padding: 30px;
+    padding: 120px;
     color: white;
 
-   
+}
+fieldset{
+    border: none;
+    display: inline;
+    gap:100px;
+    
+}
+input{
+    gap:70px;
 }
 .sub-title{
     text-decoration: underline;
@@ -532,8 +547,8 @@ body{
 }
 
 .quote-form form {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .quote-form label {
@@ -543,7 +558,7 @@ body{
 
 .quote-form input {
     padding: 8px;
-    width: 500px;
+    width: 200px;
     margin-top: 5px;
     height: 4vh;
     border: none;
@@ -553,7 +568,7 @@ body{
 .quote-form button {
     margin-top: 15px;
     padding: 10px;
-    width: 520px;
+    width: 300px;
     height: 5vh;
     background-color: #f5b400;
     border: none;
